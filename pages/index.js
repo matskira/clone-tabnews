@@ -1,5 +1,18 @@
 function Home(){
-    return <h1>Sophy, eu amo você! Se você me ama, vai dar uma risadinha!</h1>
+    return (
+        <>
+        <h1>Sophy tenho um desafio a você!</h1>
+        <h3>Siga os seguintes passos: </h3>
+        <ol>
+            <li>Vá até a cozinha</li>
+            <li>Abra a segunda gaveta do armário</li>
+            <li>Levante o pano amaralo</li>
+            <li>Pegue o papel <strong>não abra até vir ao quarto</strong></li>
+            <li>Leia em voz alta o que está escrito! Você irá receber um presentão</li>
+        </ol>
+        </>
+    );
 }
+
 
 export default Home
