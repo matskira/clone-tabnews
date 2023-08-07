@@ -4,7 +4,9 @@
   "description": "Projeto no qual irei estar adicionando todo meu aprendizado do curso.dev! Com o objetivo de aprender do zero como construir ideias e tornar real.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.1"
   }
 }
